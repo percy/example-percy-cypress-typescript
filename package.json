@@ -1,0 +1,13 @@
+{
+  "name": "test",
+  "dependencies": {
+    "@percy/cypress": "^1.0.9"
+  },
+  "devDependencies": {
+    "typescript": "^2.9.1",
+    "cypress": "^3.0.1"
+  },
+  "scripts": {
+    "e2e": "./node_modules/.bin/cypress open"
+  }
+}
